@@ -39,11 +39,10 @@ body {
 aside {
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 100%;
     justify-content: space-between;
     text-align: center;
-
-
+    align-content: center;
 }
 
 aside .reload {
@@ -72,7 +71,7 @@ aside .reload i {
 } 
 
 aside .sm-icon i {
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
     color:#0392bf;
 }
 
@@ -166,10 +165,14 @@ aside .sm-icon i {
      display: flex;
  }
 
+ .color-picker h5 {
+     font-size: 1.5rem;
+ }
+
  .color-picker button {
      margin: 0 .5rem;
-     width: 20px;
-     height: 20px;
+     width: 30px;
+     height: 30px;
      border: 2px solid white;
      border-radius: 50%;
      transition: all 0.6s ease-in-out;
@@ -203,7 +206,12 @@ background: #ED48BA;
      border: none;
  }
 
+ footer {
+     display: none;
+ }
+
 /* media querries */
+
 
 @media (max-width: 770px) {
     .body> h3 {
@@ -218,6 +226,16 @@ background: #ED48BA;
    
    
     }   
+
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+    }
 }
 
 @media (max-width: 500px){
@@ -240,6 +258,7 @@ background: #ED48BA;
 
     aside {
         display: none;
+        flex-direction: row;
     }
 
 
@@ -315,6 +334,28 @@ background: #ED48BA;
            font-size: 0.8rem;
           
        }
+
+       footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        margin: 0 .5rem 1rem .5rem;
+    }
+
+    .foot-content i {
+        color: #ED48BA;
+        font-size: 2rem;
+
+
+    }
+
+    .sm-icons i {
+        color: #0392bf;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    
+    }
 
 }
 
