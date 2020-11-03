@@ -149,14 +149,11 @@ aside .sm-icon i {
   margin-left: 1rem;
  }
 
- .star > i {
+ .fa-star  {
     font-size: 0.8rem;
     color: #FBEC06;
  }
 
- .stra {
-     color: #FBEC06;
- }
 
  .text-content {
      text-align: left;
