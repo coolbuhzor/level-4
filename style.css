@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ ul li   {
+     list-style: none;
+
+ }
+ a {
+    text-decoration: none;
+    color: white;
+
+ }
+
+ #list {
+     color: white;
+ }
+
+
+ .p-1 {padding: 1rem 0;}
+ img {
+     height: 300px;
+     width: 100%;
+     position: relative;
+ }
+
+ .body> h3 {
+     position: absolute;
+     top: 280px;
+     left: 290px;
+     font-size: 2rem;
+     text-shadow: 2px 2px 8px #000;
+ }
+
+ body {
+     overflow: hidden;
+    
+ }
+
+
+ .home-page {
+     display: grid;
+     grid-template-columns: 4% 96% ;
+     grid-gap: 1rem;
+     height: 100vh;
+     color: white;
+
+ }
+
+ .whole-page {
+     display: flex;
+     flex-direction: column;
+     background: #0392bf;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin-right: 4rem;
+ }
+ nav ul {
+     display: flex;
+     padding: 2rem;
+ }
+ 
+
+ nav ul li a {
+     margin: 1rem;
+ }
+
+ .content{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 1rem;
+     margin: 0 1rem;
+     padding: 1rem;
+ }
+
+ .top-flex {
+     display: flex;
+     padding: 1rem 0;
+ }
+
+ .text-content {
+     text-align: left;
+     line-height: 1.5;
+     font-size: 1.2rem;
+    
+ }
+
+ .color-picker {
+     display: flex;
+ }
+
+ .color-picker button {
+     margin: 0 .5rem;
+     width: 20px;
+     height: 20px;
+     border: 2px solid white;
+     border-radius: 50%;
+     transition: all 0.6s ease-in-out;
+ }
+.color-picker button:focus {
+    outline: none;
+}
+
+ .color-picker button:active {
+     /* outline: none; */
+     border: 2px solid black;
+ }
+ .blue {
+     background-color: #0392bf;
+ }
+ .pink {
+background: #ED48BA;
+ }
+ .yellow {
+    background: #FBEC06;
+ }
+ .white {
+    background: #B3D4E0;
+ }
+
+
+ #final-btn {
+     background: #ed48ba;
+     padding: .4rem .8rem;
+     margin: 1rem;
+     border: none;
+ }
